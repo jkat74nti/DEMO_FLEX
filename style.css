@@ -1,0 +1,28 @@
+.container{
+    /* kommentar*/
+    display: flex;
+    flex-direction: row;
+    border: 5px solid black;
+    gap:15px;
+    justify-content: space-between;
+}
+
+.box{
+    /* width: 400px;
+    height: 400px; */
+    /* sätter den storlek vi vill ha i utläggningens riktiningen */
+    /* flex-basis: 300px;*/
+    background-color: aqua; 
+    flex-basis: 300px;
+}
+
+.bred{
+    flex-grow:3;
+    background-color: tomato;
+}
+
+.smal{
+flex-shrink: 2;
+background-color: blue;
+
+}
